@@ -34,3 +34,4 @@ challenge:                   # incoming challenges
   modes:                     # game modes to accept
     - casual                 # unrated games
    #- rated                  # rated games - must comment if the engine doesn't try to win
+thinking_time:false
