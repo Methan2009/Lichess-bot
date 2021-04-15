@@ -33,4 +33,5 @@ challenge:                   # incoming challenges
     - correspondence
   modes:                     # game modes to accept
     - casual                 # unrated games
+    ALLOW_PONDER:true
     #- rated                  # rated games - must comment if the engine doesn't try to win
