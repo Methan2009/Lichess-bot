@@ -14,6 +14,11 @@ challenge:                   # incoming challenges
   accept_bot: true          # accepts challenges coming from other bots
   max_increment: 180         # maximum amount of increment to accaept a challenge. the max is 180. set to 0 for no increment
   min_increment: 0           # minimum amount of increment to accept a challenge
+  uci_options:               # arbitrary UCI options passed to the engine
+    Move Overhead: 100       # increase if your bot flags games too often
+    Threads: 2               # max CPU threads the engine can use
+    Hash: 256                # max memory (in megabytes) the engine can allocate
+  fake_think_time: false       # artificially slow down the bot to pretend like it's thinking
   variants:                  # chess variants to accept (http://lichess.org/variant)
     - standard
 #   - fromPosition
