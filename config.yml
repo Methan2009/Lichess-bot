@@ -1,4 +1,4 @@
-token: "2ECqW0fjN0gbKajj"    # lichess OAuth2 Token
+token: "fxCpL74W3zqtLAHB"    # lichess OAuth2 Token
 url: "https://mskchess.ru/"  # lichess base URL
 
 engine:                      # engine settings
